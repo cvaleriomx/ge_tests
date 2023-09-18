@@ -1,4 +1,3 @@
-# diferent ways to load fields
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 import numpy as np
@@ -7,7 +6,8 @@ import matplotlib.mlab as ml
 from mpl_toolkits import mplot3d
 
 
-BA = np.loadtxt('totDose1.txt')
+BA = np.loadtxt('todose.txt')
+#BA = np.loadtxt('totDose2.txt')
 X=1*np.array(BA[:,0])
 Y=1*np.array(BA[:,1])
 Z=1*np.array(BA[:,2])
@@ -26,9 +26,9 @@ scatter = ax.scatter(X, Y, Z, c=Dose, norm=norm)
 cbar = fig.colorbar(scatter, ax=ax, label='T')
 
 # Etiqueta los ejes
-ax.set_xlabel('Eje X')
-ax.set_ylabel('Eje Y')
-ax.set_zlabel('Eje Z')
+ax.set_xlabel(' X')
+ax.set_ylabel(' Y')
+ax.set_zlabel('Z')
 DNew=[]
 XNew=[]
 YNew=[]
@@ -37,7 +37,7 @@ DZNew=[]
 
 for i in range(len(Z)):
     valor=Z[i]
-    # Haces algo con cada valor de x, por ejemplo, imprimirlo
+    # Aqui decidimos en que plano de profundidad de z graficaremos la dosis
     if valor==2:
         DNew.append(Dose[i])
         XNew.append(X[i])
@@ -57,18 +57,24 @@ npts = 200
 fig2 = plt.figure()
 ax = fig2.add_subplot()
 
-# Crear el surface plot
-#surf = ax.plot_trisurf(XNew, YNew, DNew, cmap='viridis')
-#surf = ax.plot_surface(XNew, YNew, DNew, cmap='viridis')
 
-# Añadir barra de color
+plt.xlabel('X (m)')
+plt.ylabel('Y (m)')
 #fig.colorbar(surf)
-#X, Y = np.meshgrid(np.linspace(0, 30, 30), np.linspace(0, 30, 30))
+##Aqui definimos los valores espaciales de X,Y del plano de boxeles para graficarlos
+X1, Y1 = np.meshgrid(np.linspace(-0.15, 0.15, 30), np.linspace(-0.15, 0.15, 30))
+##Despues de crear el arreglo Dnew este tiene la forma de una columna, tenemos que decirle a python 
+#que su significado es el de un arreglo bidimensional de 30X30 para eso usamos reshape
 arrZ = np.array(DNew)
 ZE=arrZ.reshape(30, 30)
-ax.imshow(ZE)
+#Ahora lo graficamos 
+plt.title("Perfil a profundidad deseada")
+plt.pcolormesh(X1,Y1,ZE)
+cbar = plt.colorbar()
+#ax.imshow(ZE)
 fig3 = plt.figure()
 # plot data points.
+plt.title("Una linea de como la dosis evoluciona con la profundidad")
 plt.scatter(ZNew,DZNew,marker='o', s=5, zorder=10)
 
 plt.show()
