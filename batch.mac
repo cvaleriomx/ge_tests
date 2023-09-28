@@ -24,7 +24,7 @@
 
 ### Number of primary events
 
-/general/nBeam 50000                                  # number of events to run
+/general/nBeam 5000000                                  # number of events to run
 
 ### NUMBER STORED  
 
@@ -47,7 +47,7 @@
 
 /phantom/PhantomName fullWater				# phantom name to select among those implemented
 #/phantom/centre 0 0 0 # phantom centre coordinates in the world [mm]
-/phantom/centre 0 0 -200 # phantom centre coordinates in the world [mm]
+/phantom/centre 0 0 0 # phantom centre coordinates in the world [mm]
 
 ### ACCELERATOR
 
@@ -64,7 +64,7 @@
 /physics/addPhysics LowE_Livermore 
 
 /score/create/boxMesh boxMesh_S
-/score/mesh/boxSize 150. 150. 150. mm
+/score/mesh/boxSize 15. 15. 15. mm
 /score/mesh/nBin 30 30 30 
 
 
