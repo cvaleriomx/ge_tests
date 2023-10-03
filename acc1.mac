@@ -6,24 +6,14 @@
 #/accelerator/rotationX -45 deg     # rotation around X [deg]
 
 #/accelerator/idEnergy 6             # no units
-/accelerator/aperture1X 25 cm           
-/accelerator/aperture2X 25 cm      
+/accelerator/aperture1X 25 mm        # se cambio de cm a mm   
+/accelerator/aperture2X 25 mm      
 /accelerator/aperture1Y -100 mm     
 /accelerator/aperture2Y 100  mm     
 
 /accelerator/leavesA 25            
-/accelerator/leavesA 25
 /accelerator/leavesA 25            
-/accelerator/leavesA 25            
-/accelerator/leavesA 25            
-/accelerator/leavesA 25            
-/accelerator/leavesA 25            
-/accelerator/leavesA 25            
-/accelerator/leavesA 25            
-/accelerator/leavesA 25 
-/accelerator/leavesA 25            
-/accelerator/leavesA 25            
-/accelerator/leavesA 25            
+/accelerator/leavesA 25           
 /accelerator/leavesA 25            
 /accelerator/leavesA 25            
 /accelerator/leavesA 25            
@@ -33,14 +23,9 @@
 /accelerator/leavesA 25
 /accelerator/leavesA 25            
 /accelerator/leavesA 25            
+/accelerator/leavesA 25           
 /accelerator/leavesA 25            
 /accelerator/leavesA 25            
-/accelerator/leavesA 25            
-/accelerator/leavesA 25            
-/accelerator/leavesA 25            
-/accelerator/leavesA 25            
-/accelerator/leavesA 25            
-/accelerator/leavesA 25 
 /accelerator/leavesA 25            
 /accelerator/leavesA 25            
 /accelerator/leavesA 25            
@@ -48,14 +33,9 @@
 /accelerator/leavesA 25
 /accelerator/leavesA 25            
 /accelerator/leavesA 25            
+/accelerator/leavesA 25           
 /accelerator/leavesA 25            
 /accelerator/leavesA 25            
-/accelerator/leavesA 25            
-/accelerator/leavesA 25            
-/accelerator/leavesA 25            
-/accelerator/leavesA 25            
-/accelerator/leavesA 25            
-/accelerator/leavesA 25 
 /accelerator/leavesA 25            
 /accelerator/leavesA 25            
 /accelerator/leavesA 25            
@@ -63,40 +43,61 @@
 /accelerator/leavesA 25
 /accelerator/leavesA 25            
 /accelerator/leavesA 25            
+/accelerator/leavesA 25           
 /accelerator/leavesA 25            
 /accelerator/leavesA 25            
 /accelerator/leavesA 25            
 /accelerator/leavesA 25            
 /accelerator/leavesA 25            
 /accelerator/leavesA 25            
+/accelerator/leavesA 25
 /accelerator/leavesA 25            
-/accelerator/leavesA 25 
-           
-
-/accelerator/leavesB 25            
-/accelerator/leavesB 25            
-/accelerator/leavesB 25            
-/accelerator/leavesB 25            
-/accelerator/leavesB 25            
-/accelerator/leavesB 25            
-/accelerator/leavesB 25            
-/accelerator/leavesB 25            
-/accelerator/leavesB 25            
-/accelerator/leavesB 25
-/accelerator/leavesB 25            
-/accelerator/leavesB 25            
-/accelerator/leavesB 25            
-/accelerator/leavesB 25                                        
-/accelerator/leavesB 25            
-/accelerator/leavesB 25            
-/accelerator/leavesB 25            
-/accelerator/leavesB 25            
-/accelerator/leavesB 25            
-/accelerator/leavesB 25            
-/accelerator/leavesB 25            
-/accelerator/leavesB 25            
-/accelerator/leavesB 25            
-/accelerator/leavesB 25
+/accelerator/leavesA 25            
+/accelerator/leavesA 25           
+/accelerator/leavesA 25            
+/accelerator/leavesA 25            
+/accelerator/leavesA 25            
+/accelerator/leavesA 25            
+/accelerator/leavesA 25            
+/accelerator/leavesA 25            
+/accelerator/leavesA 25
+/accelerator/leavesA 25            
+/accelerator/leavesA 25            
+/accelerator/leavesA 25           
+/accelerator/leavesA 25            
+/accelerator/leavesA 25            
+/accelerator/leavesA 25            
+/accelerator/leavesA 25            
+/accelerator/leavesA 25            
+/accelerator/leavesA 25            
+/accelerator/leavesA 25
+/accelerator/leavesA 25            
+/accelerator/leavesA 25            
+/accelerator/leavesA 25           
+/accelerator/leavesA 25            
+/accelerator/leavesA 25            
+/accelerator/leavesA 25            
+/accelerator/leavesA 25            
+/accelerator/leavesA 25            
+/accelerator/leavesA 25            
+/accelerator/leavesA 25
+/accelerator/leavesA 25            
+/accelerator/leavesA 25            
+/accelerator/leavesA 25           
+/accelerator/leavesA 25            
+/accelerator/leavesA 25            
+/accelerator/leavesA 25            
+/accelerator/leavesA 25            
+/accelerator/leavesA 25            
+/accelerator/leavesA 25            
+/accelerator/leavesA 25
+/accelerator/leavesA 25            
+/accelerator/leavesA 25            
+/accelerator/leavesA 25           
+/accelerator/leavesA 25            
+/accelerator/leavesA 25            
+            
+                                    
 /accelerator/leavesB 25            
 /accelerator/leavesB 25            
 /accelerator/leavesB 25            
@@ -126,7 +127,7 @@
 /accelerator/leavesB 25            
 /accelerator/leavesB 25            
 /accelerator/leavesB 25            
-/accelerator/leavesB 25   
+/accelerator/leavesB 25
 /accelerator/leavesB 25            
 /accelerator/leavesB 25            
 /accelerator/leavesB 25            
@@ -146,7 +147,7 @@
 /accelerator/leavesB 25            
 /accelerator/leavesB 25            
 /accelerator/leavesB 25            
-/accelerator/leavesB 25  
+/accelerator/leavesB 25
 /accelerator/leavesB 25            
 /accelerator/leavesB 25            
 /accelerator/leavesB 25            
@@ -156,6 +157,31 @@
 /accelerator/leavesB 25            
 /accelerator/leavesB 25            
 /accelerator/leavesB 25            
-/accelerator/leavesB 25         
-          
+/accelerator/leavesB 25
+/accelerator/leavesB 25            
+/accelerator/leavesB 25            
+/accelerator/leavesB 25            
+/accelerator/leavesB 25            
+/accelerator/leavesB 25            
+/accelerator/leavesB 25            
+/accelerator/leavesB 25            
+/accelerator/leavesB 25            
+/accelerator/leavesB 25            
+/accelerator/leavesB 25
+/accelerator/leavesB 25            
+/accelerator/leavesB 25            
+/accelerator/leavesB 25            
+/accelerator/leavesB 25            
+/accelerator/leavesB 25            
+/accelerator/leavesB 25            
+/accelerator/leavesB 25            
+/accelerator/leavesB 25            
+/accelerator/leavesB 25            
+/accelerator/leavesB 25
+/accelerator/leavesB 25            
+/accelerator/leavesB 25            
+/accelerator/leavesB 25            
+/accelerator/leavesB 25            
+/accelerator/leavesB 25            
+        
 
